@@ -34,7 +34,7 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-img aside {
+ aside img {
     width: 200px;
     height: auto;
 }
