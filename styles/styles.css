@@ -3,7 +3,7 @@ nav {
     padding: 10px;
 }
 
-main{
+main {
     max-width: 840px;
 }
 
@@ -13,15 +13,16 @@ nav a {
     padding: 20px;
 }
 
-aside{
+aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb( 0 0 0 / 0.1) ;
-    padding: 2rem ;
-    background-color: #f3e4e4 ;
-    color: #333 ;
-    text-align: centre;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 2rem;
+    background-color: #f3e4e4;
+    color: #333;
+    text-align: center;
 }
+
 h1 {
     color: darkblue
 }
@@ -34,15 +35,17 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
- aside img {
+aside img {
     width: 200px;
     height: auto;
 }
+
 p {
     padding: 0;
 }
-footer{
-    margin-top:15px;
-    border-top:3px solid #000;
-    text-align:center;
+
+footer {
+    margin-top: 15px;
+    border-top: 3px solid #000;
+    text-align: center;
 }
