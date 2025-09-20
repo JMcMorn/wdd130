@@ -7,7 +7,7 @@
     /* light blue*/
     --accent2-color: #f7ed61;
     /* light yellow*/
-    --heading-font: "Times New Roman", "Georgia" . Serif;
+    --heading-font: "Times New Roman", "Georgia", Serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
