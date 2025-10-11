@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Poll form </title>
+    <meta name="author" content="Joshua McMorn">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <form>
+                    <label for="fullname"> Full name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email</label>
+                    <input type="text" id="useremail" name="useremail">
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser"> What is you favourite internet browser?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                </select>
+                <label for="pet">Do you have any household pets?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you've lived:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                    placeholder="England, France, Italy, Iceland"></textarea>
+            </fieldset>
+            <button type="submit">Submit poll</button>
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
