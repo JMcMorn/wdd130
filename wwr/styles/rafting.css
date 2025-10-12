@@ -1,14 +1,14 @@
 :root {
     --primary-color: #1f2bda;
     /* dark blue*/
-    --secondary-color: #9b1a1a;
+    --secondary-color: #5d611f;
     /*dark red*/
-    --accent1-color: #cf5454;
+    --accent1-color: #f8b3b3;
     /* light red*/
     --accent2-color: #48a016c5;
     /* green*/
     --body-color: #1a1717;
-    --heading-color: #f7e4e4;
+    --heading-color: #c2b5b5;
     --heading-font: "Times New Roman", Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -139,6 +139,16 @@ article {
     gap: 2rem 1rem;
 }
 
+.employees {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem 1rem;
+}
+
+.employees h2{
+    grid-column: 1 / -1;
+    justify-self: center;
+}
 .adventure h2 {
     grid-column: 1 / -1;
     justify-self: center;
