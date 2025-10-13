@@ -139,16 +139,6 @@ article {
     gap: 2rem 1rem;
 }
 
-.employees {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem 1rem;
-}
-
-.employees h2{
-    grid-column: 1 / -1;
-    justify-self: center;
-}
 .adventure h2 {
     grid-column: 1 / -1;
     justify-self: center;
@@ -167,3 +157,119 @@ footer {
     grid-template-columns: 3fr 1fr;
     align-items: center;
 }
+
+/* Contact page styles*/
+
+.contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2 rem;
+}
+
+.contact-us {
+    grid-column: 1/ -1;
+    text-align: center;
+}
+
+.gmap {
+    grid-column: 1/-1;
+    grid-row: 2;
+    border: 0;
+    width: 400px;
+    height: 400px;
+}
+
+/*form formatting begin*/
+.contact-form {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.purpose {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.purpose p {
+    margin: 0;
+    padding: 0;
+    grid-column: 1;
+    justify-self: start;
+}
+
+.purpose fieldset {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1.25rem auto;
+    gap: 0.5rem 0.1rem;
+    border: none;
+}
+
+.contact-message {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.btn {
+    background-color: var(--accent2-color);
+    color: aliceblue;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(11, 167, 167);
+    color: aliceblue;
+}
+
+.btn-contact {
+    grid-column: 1/-1;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/*form formatting, end*/
+.employees {
+    grid-column: 1/ span 2;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.employees figure{
+    width: 200px;
+    justify-self: center;
+}
+
+.employees img{
+    width: 100%;
+}
+
+.employees h2 {
+    grid-column: 1/-1;
+    justify-self: center;
+}
+
+
+/*contact us page formatting end*/
