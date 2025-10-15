@@ -1,14 +1,14 @@
 :root {
-    --primary-color: #1f2bda;
+    --primary-color: #2834e0;
     /* dark blue*/
-    --secondary-color: #5d611f;
+    --secondary-color: #d3d4b9;
     /*dark red*/
-    --accent1-color: #f8b3b3;
+    --accent1-color: #df4e4e;
     /* light red*/
-    --accent2-color: #48a016c5;
+    --accent2-color: #4c8d27c5;
     /* green*/
     --body-color: #1a1717;
-    --heading-color: #c2b5b5;
+    --heading-color: #3a1c1c;
     --heading-font: "Times New Roman", Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -80,7 +80,7 @@ nav {
 }
 
 nav a {
-    color: var(--heading-color);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 12px;
@@ -151,8 +151,8 @@ article {
 }
 
 footer {
-    background-color: var(--accent1-color);
-    color: var(--heading-color);
+    background-color: var(--primary-color);
+    color: white;
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
@@ -227,8 +227,8 @@ footer {
 }
 
 .btn {
-    background-color: var(--accent2-color);
-    color: aliceblue;
+    background-color: var(--primary-color);
+    color: rgb(238, 228, 240);
     border: none;
     padding: 1rem 2rem;
     cursor: pointer;
@@ -285,4 +285,31 @@ footer {
 .index-adventure h2 {
     grid-column: 1 / -1;
     justify-self: center;
+}
+/* Index end*/
+
+/* Trip Page Begin*/
+.trip-head h1{
+    grid-column: 1/-1;
+    justify-self: center;
+    border-bottom:5px solid;
+}
+.trip-head{
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+}
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 12px 7px;
+}
+
+td:last-of-type {
+  text-align: center;
 }
